@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Ishan Thapa Magar
+    </title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    
+        <section>
+
+            <div class="centered-text">
+                    <h1>Hi, I'm Ishan Thapa Magar.</h1>
+                    <h4>I am currently pursuing a Bachelor's degree in Information Management at St. Xavier's College. I am eager to learn new things, grow my skills, and explore opportunities in the world of technology and data.</h4>
+
+                    <div class="changing-text">
+                            I love <span id="changing-emoji"></span>
+                     </div>
+                    <div class="buttons">
+                        <a href="https://www.linkedin.com/in/ishan-thapa-magar-b01179315" target="_blank" class="btn outline"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                        <a href="https://github.com/IshanThapaMagar" target="_blank" class="btn outline"><i class="fas fa-globe"></i> Github</a>
+                        <a href="https://www.instagram.com/ishanthapa_magr/" target="_blank" class="btn outline"><i class="fas fa-globe"></i> Instagram</a>
+                    </div>
+
+
+                </div>
+
+
+</section>
+
+
+
+</body>
+</html>
+        </section>
+
+
+
+
+</body>
+    <script>
+        const emojis = ["⚽", "🎮", "🚵", "👨‍💻"];
+        let index = 0;
+        setInterval(() => {
+            document.getElementById("changing-emoji").textContent = emojis[index];
+            index = (index + 1) % emojis.length;
+        }, 1000);
+    </script>
+</html>
